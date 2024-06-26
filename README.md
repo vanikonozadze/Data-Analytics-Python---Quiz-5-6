@@ -1,30 +1,11 @@
 # Quiz 5 - 6
 
-1. **Data Loading and Cleaning**
-   - **Dataset Import:** The earthquake dataset is imported and initial analysis is performed to handle missing values and outliers.
-   - **Data Cleaning:** Cleaning involves removing or imputing missing values, handling outliers, and ensuring data integrity.
+ეს პროექტი მოიცავს მიწისძვრის მონაცემების ანალიზს, რათა აღმოვაჩინოთ ნიმუშები და შეხედულებები მიწისძვრის შემთხვევების, მაგნიტუდების,
+სიღრმეებისა და გეოგრაფიული განაწილების შესახებ. პროექტი სტრუქტურირებულია მონაცემთა გაწმენდის, ტრანსფორმაციისა და ვიზუალიზაციის
+ტექნიკის დემონსტრირებაზე Python ბიბლიოთეკების გამოყენებით, როგორიცაა Pandas და Matplotlib.
 
-2. **Data Analysis**
-   - **Magnitude Analysis:** Analyzing earthquake magnitudes to understand their distribution and trends over time.
-   - **Depth Analysis:** Exploring the depths of earthquakes and their correlation with other factors.
-   - **Geographical Distribution:** Visualizing earthquake occurrences on a map to identify high-seismic zones.
-
-3. **Data Transformation**
-   - **Data Reshaping:** Using techniques like stacking and unstacking to reshape data for better analysis of various earthquake parameters.
-
-4. **Data Visualization**
-   - **Trend Visualization:** Creating line charts and time series plots to visualize earthquake trends over time.
-   - **Distribution Visualization:** Using bar charts, scatter plots, and histograms to visualize magnitude distributions and depth variations.
-
-5. **Yearly Aggregation**
-   - **Yearly Trends:** Aggregating earthquake data on a yearly basis to identify recurring patterns and seasonal variations.
-
-## Tools Used
-
-- **Python Libraries:** Pandas, Matplotlib
-- **Data Source:** Earthquake dataset (provided in CSV format)
-
-## Contributors
-
-- [Your Name]
-- [Collaborator Name, if any]
+- **მონაცემების ჩატვირთვა და გაწმენდა:** dataset-ის იმპორტი და ანალიზისთვის მომზადება დაკარგული მნიშვნელობების დამუშავებით და თარიღების ანალიზით.
+- **სიღრმის კატეგორიზაცია:** მიწისძვრების კლასიფიკაცია სიღრმის კატეგორიებად, როგორიცაა shallow, intermediate და deep.
+- **მონაცემთა ხელახალი ფორმატირება:** dataset-ის ტრანსფორმირება ისეთი ტექნიკის გამოყენებით, როგორიცაა stacking და unstacking, რათა გამოვიკვლიოთ სხვადასხვა მონაცემები.
+- **ვიზუალიზაცია:** ვიზუალური წარმოდგენების შექმნა ტენდენციებისა და განაწილების გასაანალიზებლად, მათ შორის line chart, bar charts, scatter plots და histograms.
+- **თვიური აგრეგაცია:** მიწისძვრის მონაცემების აგრეგაცია ყოველთვიურად დროებითი შაბლონების დასაკვირვებლად.
