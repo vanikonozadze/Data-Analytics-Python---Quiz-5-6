@@ -1,10 +1,6 @@
-# Earthquake Data Analysis
+# Quiz 5 - 6
 
-## Project Overview
-
-This project aims to analyze earthquake data to explore patterns and insights related to earthquake magnitudes, depths, times, and geographical distributions. The analysis is structured around data loading, cleaning, transformation, and visualization techniques using Python libraries.
-
-## Contents
+## 
 
 1. **Data Loading and Cleaning**
    - **Dataset Import:** The earthquake dataset is imported and initial analysis is performed to handle missing values and outliers.
