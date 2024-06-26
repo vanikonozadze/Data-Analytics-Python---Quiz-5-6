@@ -1,7 +1,5 @@
 # Quiz 5 - 6
 
-## 
-
 1. **Data Loading and Cleaning**
    - **Dataset Import:** The earthquake dataset is imported and initial analysis is performed to handle missing values and outliers.
    - **Data Cleaning:** Cleaning involves removing or imputing missing values, handling outliers, and ensuring data integrity.
